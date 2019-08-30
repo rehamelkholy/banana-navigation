@@ -39,4 +39,4 @@ _**(For Windows users)**_ Check out [this link](https://support.microsoft.com/en
 1. Open the Python notebook `Navigation.ipynb`.
 2. Run the first cell to install dependencies for the notebook.
 3. You can explore the environement in the rest of section 1, and sections 2 and 3. If you do, be sure to restart the kernel before continuing.
-4. To train and evaluate an agent, just run the rest of the script in sequential order.
+4. To train and evaluate an agent, just run the rest of the script (_starting from section 4_) in sequential order.

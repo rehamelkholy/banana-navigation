@@ -26,7 +26,7 @@ The Deep Q-Learning Algorithm outlined in [this research paper](https://storage.
 
 While the below default values from the `DQN` exercise solution from an earlier lesson did the job, some tuning to certain hyperparameters would improve the results and decrease the training required. Some of those are: increasing the batch size to make the training more stable and less oscillating, decreasing the learning rate for the same reason, updating the network more often, and decreasing the starting value of epsilon, and the epsilon-decay factor to utilize the training more effectively.
 
-### Agent Hyperparameters
+#### Agent Hyperparameters
 ```
 BUFFER_SIZE = int(1e5) # replay buffer size
 BATCH_SIZE = 64        # minibatch size
@@ -35,7 +35,7 @@ TAU = 1e-3             # for soft update of target parameters
 LR = 5e-4              # learning rate
 UPDATE_EVERY = 4       # how often to update the network
 ```
-### Network Hyperparameters
+#### Network Hyperparameters
 ```
 n_episodes = 2000      # maximum number of training episodes
 max_t = 1000           # maximum number of time steps per episode
@@ -50,10 +50,10 @@ The model uses two identical `QNetqork`'s, each has an input the same size as th
 
 ## Scores vs Episodes
 
-### Reward Plot
+#### Reward Plot
 ![Reward Plot](scores.png)
 
-### Total Number of Episodes
+#### Total Number of Episodes
 `Environment solved in 422 episodes!	Average Score: 13.04`
 
 ## Ideas for Future Work

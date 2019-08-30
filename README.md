@@ -1,5 +1,5 @@
 # Project 1: Navigation
-
+--------------------------------------------------------------------------------------------------------------------------------------------
 ## The Environment
 This project trains an agent to navigate (and collect yellow bananas, while avoiding blue ones!) in a large, square world. A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana.
 

@@ -18,7 +18,7 @@ The Deep Q-Learning Algorithm outlined in [this research paper](https://storage.
         - Sample random minibatch of transitions from memory.
         - Perform a gradient descent step.
         
-    **End For**
+      **End For**
         
   **End For**
 

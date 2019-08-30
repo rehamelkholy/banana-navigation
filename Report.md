@@ -46,7 +46,7 @@ eps_decay = 0.995      # multiplicative factor (per episode) fro decreasing epsi
 
 ## Model Architecture
 
-The model uses two identical `QNetqork`'s, each has an input the same size as the state space, and is composed of two fully connected layers of dimesnion `64` each followed by a Relu activation layer, and finally a third fully connected layer with an output the same size as the action space.
+The model uses two identical `QNetwork`'s, each has an input the same size as the state space, and is composed of two fully connected layers of dimesnion `64` each followed by a Relu activation layer, and finally a third fully connected layer with an output the same size as the action space.
 
 ## Scores vs Episodes
 
